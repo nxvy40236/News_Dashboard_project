@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Dashboard</title>
+    <link rel="icon" href="https://img.icons8.com/ios-filled/50/000000/news.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>News Dashboard</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for news...">
+            <button id="search-button">Search</button>
+        </div>
+        <nav class="categories">
+            <button class="category-button" data-category="Technology">Technology</button>
+            <button class="category-button" data-category="Sports">Sports</button>
+            <button class="category-button" data-category="Business">Business</button>
+            <button class="category-button" data-category="Health">Health</button>
+            <button class="category-button" data-category="Science">Science</button>
+        </nav>
+    </header>
+    <main>
+        <div id="loading-indicator" class="hidden">Loading news...</div>
+        <div id="news-container" class="news-grid">
+            <!-- News cards will be loaded here -->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

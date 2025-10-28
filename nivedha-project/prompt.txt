@@ -1,0 +1,39 @@
+Build a **News Dashboard web app** using **HTML, CSS, and JavaScript (Vanilla JS only)**.
+Use the **NewsAPI ([https://newsapi.org/](https://newsapi.org/))** to fetch and display the latest news headlines dynamically.
+
+**Requirements:**
+
+1. **Tech Stack:** HTML, CSS, Vanilla JavaScript.
+2. **Files:**
+
+   * `index.html` — Contains the layout with header, search bar, category buttons, and news cards container.
+   * `style.css` — Handles clean, responsive design using Flexbox or Grid.
+   * `script.js` — Handles API calls, event listeners, and dynamic rendering.
+3. **Features:**
+
+   * Fetch and display top headlines on page load.
+   * Category buttons: `Technology`, `Sports`, `Business`, `Health`, `Science`.
+   * Search bar to fetch news by keyword.
+   * Each news card must show title, image, short description, source, and a “Read More” link.
+   * Handle errors gracefully (e.g., no results or API issues).
+4. **API Integration:**
+
+   * Use the NewsAPI `top-headlines` and `everything` endpoints.
+   * Use `fetch()` with `async/await` for API requests.
+   * Store API key as a constant in `script.js` (e.g., `const API_KEY = "YOUR_API_KEY";`).
+5. **UI/UX:**
+
+   * Modern layout with a header, search box, and filter buttons.
+   * Responsive grid for news cards.
+   * Hover effects and a loading indicator while fetching data.
+6. **Optional Enhancements:**
+
+   * Dark/Light mode toggle.
+   * Load more button for pagination.
+   * Remember last selected category using `localStorage`.
+
+**Output:**
+
+* Provide complete source code (`index.html`, `style.css`, `script.js`).
+* Mention where to insert my NewsAPI key.
+* Include a short explanation of how the app works.
